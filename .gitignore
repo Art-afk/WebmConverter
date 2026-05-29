@@ -1,0 +1,45 @@
+# Project-wide ignore rules
+.gradle/
+build/
+local.properties
+.idea/workspace.xml
+.idea/libraries/
+.idea/shelf/
+.idea/assetWizardSettings.xml
+.idea/navEditor.xml
+.idea/caches/
+.idea/vcs.xml
+.idea/modules.xml
+.idea/deploymentTargetSelector.xml
+
+# Module-specific ignore rules
+**/build/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+cmake-build-debug/
+cmake-build-release/
+
+# Gradle
+.gradle/
+build/
+
+# Kotlin
+/bin
+/out
+
+# Log files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# FFmpeg-kit specific temp files
+*.tmp

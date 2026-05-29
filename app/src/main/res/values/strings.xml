@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WebM Converter</string>
+    <string name="select_files">Выбрать файл(ы)</string>
+    <string name="convert">Конвертировать</string>
+    <string name="empty_state_text">Выберите WebM файлы для конвертации</string>
+    <string name="status_waiting">Ожидание</string>
+    <string name="status_converting">Конвертация…</string>
+    <string name="status_done">Готово</string>
+    <string name="status_error">Ошибка</string>
+    <string name="open_file">Открыть</string>
+    <string name="share_file">Поделиться</string>
+    <string name="conversion_notification_title">Конвертация видео</string>
+    <string name="conversion_notification_channel">Конвертация видео</string>
+    <string name="permission_required_title">Требуются разрешения</string>
+    <string name="permission_required_message">Для конвертации видео необходимо разрешение на чтение файлов.</string>
+    <string name="grant">Предоставить</string>
+    <string name="cancel">Отмена</string>
+    <string name="conversion_complete">Конвертация завершена</string>
+</resources>
