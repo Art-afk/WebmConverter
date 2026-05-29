@@ -18,7 +18,7 @@ enum class ConversionStatus {
 }
 
 enum class VideoQuality {
-    HIGH, MEDIUM, LOW, LOSSLESS
+    LOW, MEDIUM, HIGH, LOSSLESS
 }
 
 data class VideoFile(

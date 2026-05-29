@@ -83,8 +83,8 @@ class MainActivity : AppCompatActivity() {
                     startActivity(Intent.createChooser(intent, "Поделиться видео"))
                 }
             },
-            onQualityChanged = { file, quality ->
-                viewModel.updateQuality(file, quality)
+            onQualityChanged = { videoFile, videoQuality ->
+                viewModel.updateQuality(videoFile, videoQuality)
             }
         )
 

@@ -28,6 +28,15 @@ android {
         }
     }
 
+    applicationVariants.all {
+        val variant = this
+        variant.outputs.all {
+            val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
+            val fileName = "WebMConverter_${variant.versionName}_${variant.name}_${output.getFilter(com.android.build.OutputFile.ABI) ?: "universal"}.apk"
+            output.outputFileName = fileName
+        }
+    }
+
     splits {
         abi {
             isEnable = true
